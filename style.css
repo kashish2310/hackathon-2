@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 30px;
+    background-color: rgb(53, 51, 51);
+
+}
+
+.tools {
+    display:flex;
+    justify-content: center;
+    flex-direction:initial;
+    margin-top: 15px;
+}
+
+.tools .color-field {
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: url(images/paintbrush2.png),pointer;
+    box-sizing: border-box;
+    align-self: center;
+
+}
+
+.tools .button {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    cursor: pointer ;
+    color: pink;
+    font-weight: bold;
+    margin: 0 15px;
+}
+.tools .Eraser {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    cursor: url(images/eraser2.png),pointer;
+    color: pink;
+    font-weight: bold;
+    margin: 0 15px;
+
+}
+
